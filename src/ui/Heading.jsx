@@ -1,5 +1,5 @@
-function Heading() {
-  return <div></div>;
+function Heading({ children }) {
+  return <div>{children}</div>;
 }
 
 export default Heading;

@@ -1,5 +1,5 @@
-function Row() {
-  return <div></div>;
+function Row({ children }) {
+  return <div>{children}</div>;
 }
 
 export default Row;
